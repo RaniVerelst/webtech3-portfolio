@@ -30,11 +30,30 @@ body{
 
 .info h2{
   font-size: 1em;
+
 }
 
 .info p{
   font-size: 0.5em;
 }
+
+.details{
+  font-size: 0.4em;
+  font-style: bold;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.details h2{
+  border: 1px black solid;
+}
+
+.ticket{
+  grid-column: 1/3;
+}
+
+
 
 footer{
   display: none;
