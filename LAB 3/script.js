@@ -21,11 +21,7 @@ class Note {
     newNote.appendChild(newP); //div class card > p todo
     newNote.appendChild(a);
 
-    console.log(a);
-
-
     return newNote;
-
   }
 
   add() {
@@ -42,7 +38,10 @@ class Note {
   }
 
   remove() {
-    console.log(this);
+
+    document.querySelector(".notes").removeChild(this.element);
+    console.log(this.element);
+
     // HINT🤩 the meaning of 'this' was set by bind() in the createElement function
     // in this function, 'this' will refer to the current note element
   }
