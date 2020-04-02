@@ -32,15 +32,15 @@ class Note {
   }
 
   saveToStorage() {
+
+
+
     // HINT🤩
     // localStorage only supports strings, not arrays
     // if you want to store arrays, look at JSON.parse and JSON.stringify
   }
 
   remove() {
-
-    document.querySelector(".notes").removeChild(this.element);
-    console.log(this.element);
 
     // HINT🤩 the meaning of 'this' was set by bind() in the createElement function
     // in this function, 'this' will refer to the current note element
